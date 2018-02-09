@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Konvertor</title>
+   <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="items">
+            <form id='forma'>
+                <input type="text" id="input" placeholder="input">
+            </form>
+            <div id="btn">Konvertuj</div>
+            <div id="output">
+                <p id='rotate'></p>
+            </div>
+            <form id="forma-2">
+                <label for="bold">
+                    <input type="checkbox" id='check-bold'> Bold</label>
+                <label for="italic">
+                    <input type="checkbox" id="check-italic"> Italic</label>
+                <label for="options">
+                    <select id='select'>
+                        <option value="fontSize px">Font Size px</option>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                        <option value="25">25</option>
+                        <option value="30">30</option>
+                        <option value="35">35</option>
+                        <option value="40">40</option>
+                        <option value="45">45</option>
+                        <option value="50">50</option>
+                        <option value="55">55</option>
+                        <option value="60">60</option>
+                    </select> Font Size</label>
+                <label for="options2">
+                    <select name="options2" id="select-color">
+                        <option value="colors">Colors</option>
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="black">Black</option>
+                        <option value='random'>Random</option>
+                    </select> Colors</label>
+            </form>
+        </div>
+    </div>
+    <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>

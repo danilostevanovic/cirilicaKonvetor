@@ -1,0 +1,115 @@
+body {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 100vh;
+    min-width: 700px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+#items {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+}
+
+#input {
+    min-width: 650px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid grey;
+    font-size: 20px;
+    outline: none;
+}
+
+#btn {
+    text-align: center;
+    max-width: 100px;
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 15px;
+    color: grey;
+}
+
+#output {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+#rotate {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    font-size: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#forma-2 {
+    margin: 10px auto;
+    max-width: 500px;
+    display: none;
+    position: absolute;
+}
+
+.rotacija {
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+
+@-webkit-keyframes rotacija {
+    from {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+}
+
+@keyframes rotacija {
+    from {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+}
